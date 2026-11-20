@@ -7,7 +7,3 @@
 **Debian / Ubuntu / RHEL 系：**
 ```bash
 bash <(curl -fsSL [https://raw.githubusercontent.com/a1195992737/snell-v6/main/snell.sh](https://raw.githubusercontent.com/a1195992737/snell-v6/main/snell.sh))
-
-**Alpine Linux：**
-```bash
-apk add --no-cache bash curl ca-certificates && bash <(curl -fsSL [https://raw.githubusercontent.com/a1195992737/snell-v6/main/snell.sh](https://raw.githubusercontent.com/a1195992737/snell-v6/main/snell.sh))
