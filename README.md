@@ -6,4 +6,4 @@
 
 **Debian / Ubuntu / RHEL 系：**
 ```bash
-bash <(curl -fsSL [https://raw.githubusercontent.com/a1195992737/snell-v6/main/snell.sh](https://raw.githubusercontent.com/a1195992737/snell-v6/main/snell.sh))
+curl -fsSL https://raw.githubusercontent.com/a1195992737/snell-v6/main/snell.sh -o /tmp/snell.sh && bash /tmp/snell.sh
