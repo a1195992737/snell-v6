@@ -206,7 +206,7 @@ EOF
     if [ ! -f "$NFT_CONF" ]; then
         cat > "$NFT_CONF" <<EOF
 #!/usr/sbin/nft -f
-flush ruleset
+# Managed by snell.sh: include only - never flush the system ruleset
 include "/etc/nftables.d/*.nft"
 EOF
     elif ! grep -q '/etc/nftables.d/\*\.nft\|/etc/nftables.d/snell\.nft' "$NFT_CONF" 2>/dev/null; then
